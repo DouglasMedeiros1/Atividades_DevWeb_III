@@ -1,9 +1,10 @@
 package com.autobots.automanager.modelos;
 
 import java.util.List;
-
+import org.springframework.stereotype.Component;
 import com.autobots.automanager.entidades.Documento;
 
+@Component
 public class DocumentoAtualizador {
 	private StringVerificadorNulo verificador = new StringVerificadorNulo();
 
@@ -22,7 +23,7 @@ public class DocumentoAtualizador {
 		for (Documento atualizacao : atualizacoes) {
 			for (Documento documento : documentos) {
 				if (atualizacao.getId() != null) {
-					if (atualizacao.getId() == documento.getId()) {
+					if (atualizacao.getId().equals(documento.getId())) {
 						atualizar(documento, atualizacao);
 					}
 				}

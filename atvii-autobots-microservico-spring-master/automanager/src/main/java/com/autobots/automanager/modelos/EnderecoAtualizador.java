@@ -1,7 +1,9 @@
 package com.autobots.automanager.modelos;
 
+import org.springframework.stereotype.Component;
 import com.autobots.automanager.entidades.Endereco;
 
+@Component
 public class EnderecoAtualizador {
 	private StringVerificadorNulo verificador = new StringVerificadorNulo();
 
@@ -21,6 +23,9 @@ public class EnderecoAtualizador {
 			}
 			if (!verificador.verificar(atualizacao.getNumero())) {
 				endereco.setNumero(atualizacao.getNumero());
+			}
+			if (!verificador.verificar(atualizacao.getCodigoPostal())) {
+				endereco.setCodigoPostal(atualizacao.getCodigoPostal());
 			}
 			if (!verificador.verificar(atualizacao.getInformacoesAdicionais())) {
 				endereco.setInformacoesAdicionais(atualizacao.getInformacoesAdicionais());
