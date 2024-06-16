@@ -3,21 +3,63 @@
 
 ## Como rodar?
 
+### Como abrir o Projeto:
+
+Antes dde tudo verifique se possui o eclipse e o insominia instalados em  sua maquina. (Sem eles não será possivel executar o projeto)
+
+Inicie abrindo o Eclipse, e no canto superior esquerdo clique em "files" e em seguida em "Open Porjects from Files Systems"
+
+Navegue até onde o repositorio foi clonado e digite finish
+
+### Como executar:
+
+Acesse o arquivo AutomanagerApplication.java, que se encontra nas pastas automanager/ src/ main/ java/ com/ autobots/ automanager
+
+Clique no botão verde com um simbolo de "play" e defina: Run As Java Application
+
+### Como testar:
+
+Abra o Insominia e crie uma nova coleção (O nome não importa)
+
+Em seguida crie um http request, defina o metodo que deseja utilizar e defina a rota que deseja acessar (Todas devem começar com "http://localhost:8080/")
+
+#### Exemplos de Testes
 
 
-```
- 
+
+1. Cadastrar um Telefone
+
+Método: POST
+
+URL: http://localhost:8080/telefones/{clienteId}
+
+Body: (JSON)
+{
+    "ddd": "11",
+    "numero": "987654321"
+}
+
 <br>
 
-```
 
-```
+2. Ver um Endereço
 
-```
+Método: GET
 
-```
+URL: http://localhost:8080/enderecos/{clienteId}
 
-```
+<br>
+
+
+3. Deletar um Documento
+Método: DELETE
+
+URL: http://localhost:8080/documentos/{clienteId}
+
+Body: (JSON)
+{
+    "id": 1
+}
 
 ## Proposta da Atividade
 Contextualização: 
