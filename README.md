@@ -6,6 +6,8 @@
 
 
 ```
+ 
+<br>
 
 ```
 
@@ -18,71 +20,88 @@
 ```
 
 ## Proposta da Atividade
-Contextualização:
-Os produtos digitais dominaram o modo de consumo e tendem a continuar dominando. 
-Diferente do oferecido no meio offline, as pessoas se interessam muito mais pela praticidade, 
-valor e acessibilidade das opções oferecidas pela internet. Os tempos são outros, resolver as 
-burocracias e alcançar seus desejos em apenas alguns cliques se tornou um novo modo de vida. 
+Contextualização: 
 <br>
 
-As principais formas de entrega de produtos digitais são conhecidas como aplicações web. São 
-sistemas digitais feitos para utilização através de um navegador. Eles oferecerem maiores 
-interações aos usuários e pode funcionar como um “espelho” do que seria uma loja física ou 
-uma repartição de atendimento ao público, mas sem a necessitar de um atendente humano. 
+O ramo de parques aquáticos é um mercado em expansão no mundo e o Brasil também faz parte 
+disto. No Brasil estima-se que o setor fatura R$ 3 bilhões por ano, com 30 milhões de visitantes 
+e gera 15 mil empregos diretos e 100 mil indiretos, dados de 2020. 
 <br>
 
-Assim, as aplicações web são “organismos vivos” que conseguem ajudar o consumidor a chegar 
-no ponto final de sua jornada de adquirir algum produto ou serviço sem que ele precise se 
-deslocar fisicamente até um determinado lugar. 
+A Themed Entertainment Association (TEA), associação internacional do segmento, apontou que 
+em 2020 o total de visitantes nos grandes parques do mundo ultrapassou, pela primeira vez, 
+meio bilhão de visitantes, isto é quase 7% da população mundial. 
 <br>
 
-Outra forma de entregar um produto digital é através de um aplicativo móvel. Alguns 
-consideram que os aplicativos móveis são o tipo de produto digital mais conhecido, 
-popularmente chamados de “apps”. São os aplicativos utilizados em celulares e tablets. Vão 
-desde serviços de streaming, a jogos, filmes, livros, editor de vídeos e fotos e até mesmo 
-sistemas. 
+O destaque sobre os parques aquáticos no Brasil é grande, o país é predominantemente quente, 
+visitar parques aquáticos é uma das melhores maneiras de enfrentar o calor e, ainda, se divertir 
+bastante. Por isso, esse é um destino procurado por muitas famílias e traz muito mais atrações 
+que as tradicionais piscinas e toboáguas. 
 <br>
 
-Os aplicativos podem ser usados como estratégia complementar de algumas organizações que, 
-geralmente, oferecem duas opções para acessar de produtos digitais, seu app e sua aplicação 
-web. É esse dinamismo que os tornam tão vantajosos quando se pensa em empreender. 
+Há vários parques famosos no Brasil, um deles é o Beach Park, de Fortaleza, no Ceará. O Beach 
+Park talvez seja um dos parques aquáticos mais conhecidos do Brasil. Além disso, é considerado 
+o maior da América Latina, são mais de 20.000 metros quadrados de extensão. 
 <br>
 
-A transformação digital chegou com tudo e não há como escapar. O acesso à internet é uma 
-realidade nas casas brasileiras e a tendência é que cada vez mais negócios estejam presentes no 
-meio online e menos no offline. Uma empresa ou negócio que deseja hoje alcançar cada vez 
-mais clientes deve, urgente, investir em tecnologia para se manter na concorrência. 
+Outros atrativos do Beack Park são seus resorts, praias particulares, piscinas com correnteza, 
+cabanas para relaxar e saunas. Fora da água, o parque oferta diversos restaurantes, que servem 
+os mais variados tipos de refeições — desde pizza a comida caseira. 
 <br>
 
-### Atividade:
+Outro parque aquático famoso é o Thermas dos Laranjais, que fica em São Paulo, na cidade de 
+Olímpia. Este parque foi considerado o quarto parque aquático mais visitado do mundo, em 
+2014.  
 
-O protótipo navegável que você construiu foi um sucesso. Todos gostaram e sua equipe de 
-marketing e vendas ficou muito animada com a possibilidade de um produto novo, com uma 
-interface melhor que a atual em CLI. 
 <br>
 
-Para validar o protótipo, a equipe de marketing e vendas realizou um evento, com vários 
-potenciais clientes. Neste evento a nova interface foi apresentada como uma promessa a ser 
-entregue em breve e isto gerou vários novos contratos à futuro, ou seja, clientes que já 
-assinaram com a empresa, mas começarão a pagar somente quando o sistema estiver on-line –
-pronto para usar. 
+Além das suas atrações, o Thermas dos Laranjais possui uma localização privilegiada, o parque 
+fica a cerca de 30 minutos do aeroporto de São José do Rio preto. 
 <br>
 
-Agora a “pressão” está toda sobre a equipe de desenvolvimento e, inclusive, sobre você, que 
-também é um dos engenheiros que ajudou a criar o sistema Atlantis. O objetivo agora é criar 
-uma aplicação completa, que funcione como aplicação web. 
+Dado o conteúdo supra exposto, não é difícil pensar que administrar um parque aquático exige 
+muito trabalho e as melhores ferramentas de gestão, as melhores tecnologias. Portanto, a 
+expansão deste tipo de negócio instigou a abertura de empresas de tecnologia da informação, 
+especializadas na gestão de parques, clubes ou hotéis. 
 <br>
 
-Lembre-se, você deverá utilizar o mesmo protótipo de interface criado anteriormente. Isto é 
-fundamental porque seus clientes compraram um sistema com esta interface. Além disso, todas 
-as funcionalidades já desenvolvidas e presentes, desde o sistema CLI, devem estar disponíveis
-na aplicação web, com um adicional, o sistema precisa de um banco de dados. Portanto, você 
-deverá modelar e criar uma base de dados para armazenar as informações do sistema durante 
-seu uso. 
+## Atividade: 
 <br>
 
-Você é livre para escolher qual o sistema gerenciador de banco de dados utilizar, dado que o
-produto é digital, para seus clientes o tipo da base de dados não importa. Contudo, você é 
-responsável por qualquer configuração ou ajuste necessário para que a base de dados se 
-comunique, corretamente, com a aplicação web. 
+Você é um empreendedor, muito atento as tendencias de mercado e percebeu a crescente dos 
+parques aquáticos. 
+<br>
+
+Existem muitos softwares disponíveis para auxiliar proprietários ou grupos empresariais na 
+gestão do seu negócio, mas a maioria é caro demais e com limitações. Portanto você decidiu 
+criar uma empresa, com novas ideias e propostas melhores, a Ocean Solutions. 
+<br>
+
+Depois de muito pensar, debater e ouvir seus consultores, decidiu-se pelo desenvolvimento de 
+um sistema novo, batizado de Atlantis, uma homenagem a cidade de Atlântida. 
+<br>
+
+O Atlantis está em sua faze de concepção, comumente chamada de minimum viable product 
+(MVP). O MVP é uma estratégia, que visa construir um sistema pequeno e simples por primeiro, 
+para testar se a solução terá ou não sucesso antes de partir para uma escala maior. O importante 
+neste ponto é que você não é apenas o fundador da Ocean Solutions, também é um dos 
+engenheiros de software e desenvolvedor do Atlantis. 
+<br>
+
+A primeira proposta do Atlantis é que ele seja um sistema generalista, para gerenciar parques 
+aquáticos, clubes e hotéis. Portanto, decidiu-se criar um primeiro módulo para ele, um que sirva 
+para cadastrar clientes e seus dependentes. 
+<br>
+
+Um cliente é uma pessoa, que irá usufruir dos serviços do parque, clube ou hotel. Contudo, o 
+cliente pode trazer consigo convidados, que estarão com ele durante sua estadia. Estes 
+convidados são de responsabilidade do cliente e serão cadastrados como dependentes. Como 
+todo dependente tem um responsável, os dados de endereço e telefones do dependente devem 
+ser iguais aos dados do responsável. 
+<br>
+
+Depois de discutir sobre esta questão com sua equipe de desenvolvimento, a opção escolhida 
+para implementar este comportamento no sistema foi aplicar o padrão de projeto denominado 
+de protótipo. O módulo criado pela equipe de desenvolvimento seguiu o diagrama de classe da 
+Figura 1. 
 <br>

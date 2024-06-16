@@ -17,6 +17,7 @@ import com.autobots.automanager.modelo.ClienteAtualizador;
 import com.autobots.automanager.modelo.ClienteSelecionador;
 import com.autobots.automanager.repositorios.ClienteRepositorio;
 
+
 @RestController
 @RequestMapping("/cliente")
 public class ClienteControle {
