@@ -13,10 +13,6 @@ import com.autobots.automanager.entitades.CredencialCodigoBarra;
 @Component
 public class AdicionadorLinkCredencialCodigoBarra implements AdicionadorLink<CredencialCodigoBarra> {
 
-    @Autowired
-    public AdicionadorLinkCredencialCodigoBarra(CredencialCodigoBarraControle credencialCodigoBarraControle) {
-    }
-
     @Override
     public void adicionarLink(List<CredencialCodigoBarra> lista) {
         for (CredencialCodigoBarra credencialCodigoBarra : lista) {

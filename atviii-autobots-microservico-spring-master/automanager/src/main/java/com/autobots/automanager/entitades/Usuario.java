@@ -14,6 +14,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
+import org.springframework.hateoas.Link;
+
 import com.autobots.automanager.enumeracoes.PerfilUsuario;
 
 import lombok.Data;
@@ -48,4 +50,8 @@ public class Usuario {
 	private Set<Venda> vendas = new HashSet<>();
 	@OneToMany(fetch = FetchType.EAGER, cascade = { CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH })
 	private Set<Veiculo> veiculos = new HashSet<>();
+	public void add(Link linkProprio) {
+		// TODO Auto-generated method stub
+		
+	}
 }

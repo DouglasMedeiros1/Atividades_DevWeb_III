@@ -14,6 +14,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
+import org.springframework.hateoas.Link;
+
 import lombok.Data;
 
 @Data
@@ -40,4 +42,8 @@ public class Empresa {
 	private Set<Servico> servicos = new HashSet<>();
 	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private Set<Venda> vendas = new HashSet<>();
+	public void add(Link linkProprio) {
+		// TODO Auto-generated method stub
+		
+	}
 }

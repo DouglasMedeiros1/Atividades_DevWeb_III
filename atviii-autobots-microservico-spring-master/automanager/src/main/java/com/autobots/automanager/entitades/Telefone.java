@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.hateoas.Link;
+
 import lombok.Data;
 
 @Data
@@ -18,4 +20,8 @@ public class Telefone {
 	private String ddd;
 	@Column(nullable = false)
 	private String numero;
+	public void add(Link linkProprio) {
+		// TODO Auto-generated method stub
+		
+	}
 }
