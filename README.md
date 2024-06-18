@@ -12,6 +12,7 @@ Inicie abrindo o Eclipse, e no canto superior esquerdo clique em "files" e em se
 Navegue até onde o repositorio foi clonado e digite finish
 
 ### Como executar:
+Abra o MysqlWorkbench e crie uma nova base de dados chamada base.
 
 Acesse o arquivo AutomanagerApplication.java, que se encontra nas pastas automanager/ src/ main/ java/ com/ autobots/ automanager
 
